@@ -2,7 +2,9 @@
 
 A lightweight, responsive e-commerce website built with vanilla JavaScript, HTML, and CSS. This project demonstrates core e-commerce functionality including product browsing, shopping cart management, and product details view.
 
+## Demo
 
+![E-commerce Store Demo](./images/Demo.png)
 
 ## Features
 
