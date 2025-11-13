@@ -4,7 +4,7 @@ A lightweight, responsive e-commerce website built with vanilla JavaScript, HTML
 
 ## Demo
 
-![E-commerce Store Demo](./images/Demo.png)
+![E-commerce Store Demo](images/Demo.png)
 
 ## Features
 
@@ -78,5 +78,6 @@ Then navigate to `http://localhost:8000` in your browser.
 ```
 ## Demo
 
-![E-commerce Store Demo](./images/Demo.png)
+![E-commerce Store Demo]
+(./images/Demo.png)
 
