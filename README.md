@@ -61,15 +61,7 @@ Simply open the `index.html` file in your browser:
 # On Windows
 start index.html
 
-# On Mac
-open index.html
 
-# Or use a local server (recommended)
-# Using Python 3
-python -m http.server 8000
-
-# Using Node.js http-server
-npx http-server
 ```
 
 Then navigate to `http://localhost:8000` in your browser.
