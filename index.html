@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>E-commerce Preview</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css" rel="stylesheet">
+  <style>
+   
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav class="nav">
+        <a class="logo" href="#">Ecommerce Store</a>
+        <div class="cart-icon" id="cart-icon" title="Open cart">
+          <i class="ri-shopping-cart-2-line"></i>
+          <span id="cart-count">0</span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="grid" id="product-grid">
+      <!-- JS will render product cards here -->
+    </section>
+  </main>
+
+  <!-- Cart drawer / modal -->
+  <div class="overlay" id="overlay">
+    <div class="drawer" role="dialog" aria-modal="true">
+      <button class="btn secondary" id="close-cart">Close</button>
+      <h3>Your Cart</h3>
+      <div class="cart-list" id="cart-list"></div>
+      <div class="total"><span>Total</span><span id="total-price">$0.00</span></div>
+      <div style="margin-top:12px;display:flex;gap:8px;justify-content:flex-end">
+        <button class="btn secondary" id="clear-cart">Clear</button>
+        <button class="btn" id="checkout">Checkout</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product detail modal -->
+  <div class="overlay" id="detail-overlay">
+    <div class="drawer" style="max-width:820px">
+      <button class="btn secondary" id="close-detail">Close</button>
+      <div id="detail-content"></div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+    
+</body>
+</html>
