@@ -76,5 +76,5 @@ Then navigate to `http://localhost:8000` in your browser.
 ```
 ## Demo
 
-![E-commerce Store Demo](images/Demo.png)
+![E-commerce Store Demo](./images/Demo.png)
 
